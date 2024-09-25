@@ -99,7 +99,7 @@ router.put('/update/:id', upload.single('photo'), (req, res) => {
 // Delete college
 router.delete('/delete/:id', (req, res) => {
   const { id } = req.params;
-
+   console.log(req.params)
   const sql = 'DELETE FROM college WHERE id = ?';
   db.query(sql, [id], (err, result) => {
     if (err) {

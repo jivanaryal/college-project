@@ -1,5 +1,4 @@
-// src/components/AdminPanel.jsx
-import React from 'react';
+
 import { FaUniversity, FaListAlt } from 'react-icons/fa';
 import { MdDashboard } from "react-icons/md";
 import { Link } from 'react-router-dom';
