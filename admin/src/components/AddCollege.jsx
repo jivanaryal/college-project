@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 
-const coursesList = ['BBA', 'BCA', 'BHM', 'BIM', 'BIT', 'Others'];
+const coursesList = ['BBA', 'BCA', 'BHM', 'BIM', 'BIT', 'MBA' ,'BCS','MCA','BA','CA','B.COM','BBM','Nursing', 'MBS', 'BALLB', 'BSC', 'BBS', 'B.ED', 'BSC.CSIT', 'MBBS', 'Others'];
 
 const AddCollege = () => {
   const [formData, setFormData] = useState({

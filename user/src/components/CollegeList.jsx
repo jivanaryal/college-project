@@ -12,9 +12,9 @@ const CollegeList = () => {
   const [loading, setLoading] = useState(false);
 
   const coursesList = [
-    'BBA', 'BCA', 'BHM', 'BIM', 'BIT', 'Engineering', 'Medical Sciences',
-    'Arts', 'Commerce', 'Law', 'Education', 'Nursing', 'Hospitality Management',
-    'Pharmacy', 'Others'
+    'BBA', 'BCA', 'BHM', 'BIM', 'BIT', 'BBS', 'MBBS',
+    'CA', 'B.COM', 'BALLB', 'B.ED', 'BA', 'BSC',
+    'BBM','MCA','MBA','MBS','BCS', 'Others'
   ];
 
   useEffect(() => {

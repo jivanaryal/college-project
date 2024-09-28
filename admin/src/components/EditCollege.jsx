@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import axios from 'axios';
 import { useParams, useNavigate } from 'react-router-dom';
 
-const coursesList = ['BBA', 'BCA', 'BHM', 'BIM', 'BIT', 'Others'];
+const coursesList = ['BBA', 'BCA', 'BHM', 'BIM', 'BIT', 'MBA' ,'MCA','BA', 'MBS', 'BALLB', 'BSC', 'BBS', 'B.ED', 'BSC.CSIT', 'MBBS', 'Others'];
 
 const EditCollege = () => {
   const { id } = useParams(); // Get the college ID from the URL
